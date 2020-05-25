@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Election
 GenericName=Choose a CPU governor
-Comment=Allows you to choose a CPU governor of your choice
+Comment=Choose among cpufrequtils CPU governors so your computer performs the way you expect it to
 Categories=Utility;
 Exec=com.github.eozaki.election
 Icon=application-default-icon

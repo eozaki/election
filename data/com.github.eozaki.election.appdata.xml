@@ -4,7 +4,7 @@
   <id>com.github.eozaki.election</id>
   <metadata_license>CC0</metadata_license>
   <name>Election</name>
-  <summary>Choos your CPU's governos</summary>
+  <summary>Choose your CPU's governor</summary>
   <description>
     <p>Choose among cpufrequtils CPU governors so your computer performs the way you expect it to</p>
   </description>

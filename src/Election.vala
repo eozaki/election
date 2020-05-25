@@ -28,19 +28,20 @@ public class Election : Gtk.Application {
   }
 
   protected override void activate () {
-    var main_window = new Gtk.ApplicationWindow (this);
-    var button = new Gtk.Button.with_label ("Currently not activated");
-    button.margin = 12;
+    var window = new Gtk.ApplicationWindow (this);
+    var grid = new Gtk.Grid ();
+    grid.orientation = Gtk.Orientation.VERTICAL;
+    grid.row_spacing = 10;
 
-    button.clicked.connect (() => {
-      button.label = "Currently activated";
-      button.sensitive = false;
-    });
-    main_window.add (button);
-    main_window.default_height = 300;
-    main_window.default_width = 900;
-    main_window.title = "Election - Select a CPU governor";
-    main_window.show_all ();
+    grid.add (new Gtk.Label ("banana de pijama"));
+    grid.add (new Gtk.Button.with_label ("descendo as escadas"));
+
+    window.default_height = 300;
+    window.default_width = 900;
+    window.title = "Election";
+    window.add (grid);
+
+    window.show_all ();
   }
 
   public static int main (string[] args) {

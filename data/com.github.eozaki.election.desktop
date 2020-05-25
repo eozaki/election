@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Election
+GenericName=Choose a CPU governor
+Comment=Allows you to choose a CPU governor of your choice
+Categories=Utility;
+Exec=com.github.eozaki.election
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=CPU;governor;

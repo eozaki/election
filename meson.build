@@ -6,7 +6,8 @@ executable(
     meson.project_name(),
     'src/Election.vala',
     dependencies: [
-        dependency('gtk+-3.0')
+        dependency('gtk+-3.0'),
+        dependency('cpufrequtils')
     ],
     install: true
 )
